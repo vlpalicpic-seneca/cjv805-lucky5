@@ -1,0 +1,175 @@
+body {
+  background-color: white;
+  font-family: "Libre Franklin", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+  font-style: normal;
+  text-transform: capitalize;
+  color: #232323;
+}
+
+.mainStyle {
+  width: 500px;
+  padding: 10px;
+  border: 0px solid #000000;
+}
+
+.containerStyle {
+  display: flex;
+  justify-content: center;
+}
+
+.ticketStyle {
+  width: 300px;
+  padding: 10px;
+  border: 0px solid #000000;
+}
+
+.choiceContainer {
+  width: 450px;
+  background-color: #232323;
+  color: #ffffff;
+  border-radius: 30px;
+  padding: 10px;
+  margin: 5px;
+  font-size: larger;
+}
+
+.combinationDisplay {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 450px;
+  border-radius: 20px;
+}
+
+.moneyDisplay {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.combinationContainer {
+  display: flex;
+}
+
+.combinationButton{
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  margin: 3px;
+  font-size: 32px;
+  font-weight: 900;
+  color: #ffffff;
+  border-width: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.selectionContainer{
+  width: 450px;
+  background-color: transparent;
+  color: #ffffff;
+  border-radius: 30px;
+  padding: 10px;
+  margin: 5px;
+}
+
+.moneyContainer{
+  width: 450px;
+  background-color: transparent;
+  color: #ffffff;
+  border-radius: 30px;
+  padding: 10px;
+  margin: 5px;
+}
+
+.actionContainer{
+  width: 450px;
+  background-color: transparent;
+  color: #ffffff;
+  border-radius: 30px;
+  padding: 10px;
+  margin: 5px;
+}
+
+.ticketContainer{
+  /* width: 500px; */
+  background-color: #e8e8e8;
+  color: #232323;
+  /* border-radius: 30px; */
+  border-style: dashed;
+  border-width: 10px 0px 10px 0px;
+  border-color: #ffffff;
+  padding: 10px;
+  margin: 5px;
+  text-transform: uppercase;
+  font-weight: 100;
+}
+
+.selectionButton{
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin: 3px;
+  font-size: 32px;
+  font-weight: 900;
+  color: #ffffff;
+  border-width: 0px;
+}
+
+.moneyButton{
+  height: 50px;
+  width: 90px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 3px;
+  font-size: 24px;
+  font-weight: 900;
+  color: #ffffff;
+  border-width: 0px;
+  background-color: #299345;
+}
+
+.moneyButton:hover{
+  background-color: #97C93C;
+}
+
+.actionButton{
+  height: 50px;
+  width: 120px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 3px 5px;
+  font-size: 16px;
+  font-weight: 900;
+  color: #ffffff;
+  border-width: 0px;
+  background-color: #232323;
+  text-transform: uppercase;
+}
+
+.actionButton:hover{
+  background-color: #97C93C;
+}
+
+.ticketCombinationContainer{
+  height: 40px;
+}
+
+.ticketValueContainer {
+  height: 40px;
+  padding: 0px 0px 20px 0px;
+}
+
+h1, h2, h3 {
+  font-weight: 9000;
+}
+
+h1{
+  margin: 0px;
+}
