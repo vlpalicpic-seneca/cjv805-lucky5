@@ -12,13 +12,6 @@ const MoneyPane = (props) => {
         maximumFractionDigits: 0
       });
 
-    // const buttonSize = {
-    //     height: '70px',
-    //     width: '90px',
-    //     cursor: 'pointer',
-    //     margin: '3px'
-    // }
-
     return (
         <div className="moneyContainer">
             <button className='moneyButton' onClick = {() => {handleClick(1)}}>{formatter.format(1)}</button>
